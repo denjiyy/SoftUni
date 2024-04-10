@@ -2,7 +2,7 @@
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
         string username = Console.ReadLine()!;
         string password = Reverse(username);
