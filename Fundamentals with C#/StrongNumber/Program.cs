@@ -28,7 +28,7 @@ class Program
         return sum == number;
     }
 
-    static void Main()
+    static void Main(string[] args)
     {
         int number = int.Parse(Console.ReadLine()!);
         Console.WriteLine(IsStrong(number) ? "yes" : "no");
