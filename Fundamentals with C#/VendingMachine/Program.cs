@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
         var validCoins = new List<decimal> { 0.1m, 0.2m, 0.5m, 1m, 2m };
         var products = new Dictionary<string, decimal>
