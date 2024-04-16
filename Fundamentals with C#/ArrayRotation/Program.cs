@@ -34,7 +34,7 @@ class Program
 
         RotateArr(arr, n);
 
-        Console.WriteLine(string.Join(' ', arr);
+        Console.WriteLine(string.Join(' ', arr));
 
         Console.ReadLine();
     }
